@@ -7,7 +7,6 @@ class Chef
 module Provisioning
 module GCEDriver
   class Driver < Chef::Provisioning::Driver
-
   end
 end
 end
