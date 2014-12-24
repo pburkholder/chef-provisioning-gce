@@ -1,6 +1,6 @@
 require 'bundler'
 require 'bundler/gem_tasks'
 
-task :spec do
-  require File.expand_path('spec/run')
-end
+desc 'Rspec tests'
+require 'rspec/core/rake_task'
+RSpec::Core::RakeTask.new(:spec)

@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.version = Chef::Provisioning::GCEDriver::VERSION
   s.platform = Gem::Platform::RUBY
   s.extra_rdoc_files = ['README.md', 'LICENSE']
-  s.summary = 'Provisioner for creating aws containers in Chef Provisioning.'
+  s.summary = 'Provisioner for Google Cloud resources in Chef Provisioning.'
   s.description = s.summary
   s.author = 'Peter Burkholder'
   s.email = 'https://github.com/pburkholder/chef-provisioning-gce'
